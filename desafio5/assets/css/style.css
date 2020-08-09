@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    box-sizing: inherit;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.img-ribbon {
+    z-index: 1;
+    position: absolute;
+    top: 7px;
+}
+
+.img-image {
+    right: 50px;
+    position: absolute;
+    z-index: 0;
+}
